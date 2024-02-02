@@ -36,7 +36,7 @@ for lang, tok_name in zip(('en', 'sv'), ('en_core_web_sm', 'sv_core_news_sm')):
     vocab = OrderedDict(sorted(vocab.items()))
             
     # write vocab to file
-    with open('vocab.' + lang, 'w+') as f:
+    with open('vocab.' + lang, 'w+', encoding='utf-8') as f:
         i = 1
         for key in vocab:
             f.write(str(i) + ' ' + key + ' ' + str(vocab[key]) + '\n')

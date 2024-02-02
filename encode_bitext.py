@@ -8,12 +8,12 @@ en_tok_to_id = {}
 sv_tok_to_id = {}
 
 # read vocab file
-with open('vocab.en', 'r') as f:
+with open('vocab.en', 'r', encoding='utf-8') as f:
     for line in f:
         line = line.strip().split()
         en_tok_to_id[line[1]] = int(line[0])
         
-with open('vocab.sv', 'r') as f:
+with open('vocab.sv', 'r', encoding='utf-8') as f:
     for line in f:
         line = line.strip().split()
         sv_tok_to_id[line[1]] = int(line[0])
@@ -24,7 +24,7 @@ sv_lines = open('bitext.sv', 'r', encoding='utf-8').readlines()
 
 num_lines = 0
 
-with open('bitext.encoded', 'w+') as g:
+with open('bitext.encoded', 'w+', encoding='utf-8') as g:
     for i in range(len(en_lines)):
         
         # split lines into tokens

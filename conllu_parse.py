@@ -9,16 +9,16 @@ def main():
     en_conllu = open('en_lines-ud-train.conllu', 'r', encoding='utf-8').read()
     en_pos_tagged_data = parse(en_conllu)
 
-        # for i in range(0, len(lines), 3):
-        #     swedish = lines[i-2].strip().split()
-        #     english = lines[i-1]
+    # vocab/encoding by GIZA's plain2snt.out or by my Python scripts
+    #pfx = 'giza'
+    pfx = 'me'
     
-    models = ('A1.15', 'A3.final')
+    models = (pfx + '.A1.15', pfx + '.A3.final')
     errors = dict.fromkeys(models, 0)
 
     for model in models:
         
-        model_lines = open(f'giza_out.{model}', 'r', encoding='utf-8').readlines()
+        model_lines = open(f'giza_out_{model}', 'r', encoding='utf-8').readlines()
         
         with open(f'sv_lines_{model}.conllu', 'w+', encoding='utf-8') as f:        
             
@@ -43,25 +43,23 @@ def main():
                 en_pos = [token['upos'] for token in example]
                 sv_pos = [''] * len(swedish)
                 
-                if i == 18:
-                    print(f'English: {len(english)}')
-                    print(english)
-                    print()
+                # if i == 18:
+                #     print(f'English: {len(english)}')
+                #     print(english)
+                #     print()
                     
-                    print(f'Num lists: {len(num_lists)}')
-                    print(f'English POS: {len(en_pos)}')
-                    print(en_pos)
-                    print()
-                    exit()
-                    
-                try:
-                    assert len(en_pos) == len(english)
-                except:
-                    errors[model] += 1
-                    continue
+                #     print(f'Num lists: {len(num_lists)}')
+                #     print(f'English POS: {len(en_pos)}')
+                #     print(en_pos)
+                #     print()
+                #     exit()
                 
                 for j in range(len(english)):
-                    english_pos = en_pos[j]
+                    try:
+                        english_pos = en_pos[j]
+                    except:
+                        errors[model] += 1
+                        break
                     swedish_indices = num_lists[j+1] # +1 because we start with NULL
                     for swedish_index in swedish_indices:
                         sv_pos[swedish_index-1] = english_pos # -1 because aligner starts at 1
@@ -70,7 +68,6 @@ def main():
                 for j in range(len(sv_pos)):
                     if sv_pos[j] == '':
                         sv_pos[j] = 'NOUN'
-                
                     
     print(errors)
                 

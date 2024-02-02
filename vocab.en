@@ -22,9 +22,9 @@
 22 --some 1
 23 -1999/2121(COS 1
 24 -1999/2150(COS 1
-25 -20∫C 1
-26 -20∫C. 1
-27 -40∫C. 1
+25 -20¬∫C 1
+26 -20¬∫C. 1
+27 -40¬∫C. 1
 28 -for 1
 29 . 22149
 30 .. 2
@@ -454,14 +454,14 @@
 454 251 1
 455 255 4
 456 25o 3
-457 25∫ 1
+457 25¬∫ 1
 458 26 17
 459 262 1
 460 263 1
-461 26∫ 1
+461 26¬∫ 1
 462 27 13
 463 270 3
-464 27∫ 1
+464 27¬∫ 1
 465 28 18
 466 28.2 1
 467 280 4
@@ -518,7 +518,7 @@
 518 388 2
 519 39 10
 520 394/2000 1
-521 3æ 1
+521 3¬æ 1
 522 4 74
 523 4(c 1
 524 4.05 1
@@ -585,7 +585,7 @@
 585 551 1
 586 552 1
 587 55th 2
-588 55∫C 1
+588 55¬∫C 1
 589 56 5
 590 56th 3
 591 57 2
@@ -594,7 +594,7 @@
 594 58 2
 595 59 3
 596 5b 4
-597 5æ 1
+597 5¬æ 1
 598 6 63
 599 6(1 1
 600 6.00 2
@@ -604,7 +604,7 @@
 604 60 23
 605 600 4
 606 60:1 1
-607 60∫C 1
+607 60¬∫C 1
 608 61 1
 609 611/85 1
 610 613 8
@@ -730,7 +730,7 @@
 730 A32 1
 731 A4 3
 732 A5 96
-733 A5≠0030/2000 1
+733 A5¬≠0030/2000 1
 734 ABB 8
 735 ABC 1
 736 ACP 89
@@ -747,7 +747,7 @@
 747 ANSI-89 10
 748 ANSI-92 13
 749 AVC 2
-750 Abh‰ngigkeit 1
+750 Abh√§ngigkeit 1
 751 About 17
 752 Above 7
 753 Absalom 1
@@ -854,7 +854,7 @@
 854 AllowAdditions 1
 855 AllowDeletions 1
 856 AllowEdits 1
-857 AlmerÌa 3
+857 Almer√≠a 3
 858 Almost 1
 859 Along 1
 860 Alongside 1
@@ -921,7 +921,7 @@
 921 Anticipating 1
 922 Antonio 1
 923 Antwerp 2
-924 AntÛnio 1
+924 Ant√≥nio 1
 925 Anweisungen 1
 926 Any 17
 927 Anybody 2
@@ -985,7 +985,7 @@
 985 Asturias 1
 986 Asylum 2
 987 At 137
-988 Atat¸rk 2
+988 Atat√ºrk 2
 989 Athena 1
 990 Athene 3
 991 Athens 2
@@ -1018,7 +1018,7 @@
 1018 Auvergne 1
 1019 Avenue 4
 1020 Aviano 1
-1021 AvilÈs 1
+1021 Avil√©s 1
 1022 Azerbaijan 1
 1023 Aziz 1
 1024 Aznar 3
@@ -1062,7 +1062,7 @@
 1062 Barry 1
 1063 Bartho 1
 1064 Barzanti 2
-1065 BarÛn 6
+1065 Bar√≥n 6
 1066 Based 4
 1067 Basel 1
 1068 Basic 3
@@ -1098,7 +1098,7 @@
 1098 Belgrade 10
 1099 Belize 2
 1100 Belzer 1
-1101 BelÈm 1
+1101 Bel√©m 1
 1102 Ben 3
 1103 Bench 2
 1104 Benchmarking 1
@@ -1116,7 +1116,7 @@
 1116 Bernd 3
 1117 Berne 2
 1118 Bernie 1
-1119 BerniÈ 1
+1119 Berni√© 1
 1120 Berthu 5
 1121 Bertinotti 2
 1122 Besides 5
@@ -1148,7 +1148,7 @@
 1148 Bluefin 1
 1149 Board 2
 1150 Boetticher 1
-1151 BohÈme 1
+1151 Boh√©me 1
 1152 Bolkestein 20
 1153 Bologna 1
 1154 Bolshevik 1
@@ -1164,7 +1164,7 @@
 1164 Borders 1
 1165 Borgias 1
 1166 Borgin 8
-1167 Borr‡s 4
+1167 Borr√†s 4
 1168 Bos 1
 1169 Bosnia 11
 1170 Bosnians 2
@@ -1208,7 +1208,7 @@
 1208 Bruno 1
 1209 Brushing 1
 1210 Brussels 65
-1211 BrÈtonne 1
+1211 Br√©tonne 1
 1212 Budapest 3
 1213 Buddha 1
 1214 Buddhism 1
@@ -1233,11 +1233,11 @@
 1233 Bwana 1
 1234 By 57
 1235 Byrne 11
-1236 BÈguin 2
-1237 Bˆge 8
-1238 Bˆhm 1
-1239 Bˆsch 1
-1240 B¸lent 1
+1236 B√©guin 2
+1237 B√∂ge 8
+1238 B√∂hm 1
+1239 B√∂sch 1
+1240 B√ºlent 1
 1241 C 6
 1242 C. 3
 1243 C.I.A. 1
@@ -1342,7 +1342,7 @@
 1342 Caution 1
 1343 Cavalese 1
 1344 Caves 1
-1345 Cederschiˆld 21
+1345 Cederschi√∂ld 21
 1346 Celsius 2
 1347 Celtic 2
 1348 Cem 1
@@ -1382,7 +1382,7 @@
 1382 Cheers 1
 1383 Cheese 1
 1384 Chernobyl 1
-1385 ChevËnement 1
+1385 Chev√®nement 1
 1386 Chicago 2
 1387 Chief 1
 1388 Children 2
@@ -1418,7 +1418,7 @@
 1418 Clothes 1
 1419 Clough 1
 1420 Clutching 1
-1421 ClÈment 1
+1421 Cl√©ment 1
 1422 Co 2
 1423 Coast 2
 1424 Coca 1
@@ -1563,7 +1563,7 @@
 1563 Court 111
 1564 Courts 1
 1565 Cox 8
-1566 Co˚teaux 1
+1566 Co√ªteaux 1
 1567 Crab 1
 1568 Create 1
 1569 Creating 1
@@ -1605,7 +1605,7 @@
 1605 Customers 3
 1606 Customizing 2
 1607 Customs 2
-1608 CusÌ 4
+1608 Cus√≠ 4
 1609 Cut 1
 1610 Cuxhaven 1
 1611 Cyclone 1
@@ -1615,7 +1615,7 @@
 1615 Cypriots 4
 1616 Cyprus 100
 1617 Czech 6
-1618 CÙte 1
+1618 C√¥te 1
 1619 D 2
 1620 D.C. 1
 1621 DA 13
@@ -1668,7 +1668,7 @@
 1668 Decisions 3
 1669 Declaration 6
 1670 Declarations 1
-1671 DecourriËre 11
+1671 Decourri√®re 11
 1672 Deeper 1
 1673 Default 1
 1674 Defence 19
@@ -1687,7 +1687,7 @@
 1687 Democrats 48
 1688 Demonstration 1
 1689 Denktash 1
-1690 Denkta∫. 1
+1690 Denkta¬∫. 1
 1691 Denmark 46
 1692 Denouncing 1
 1693 Denying 1
@@ -1760,7 +1760,7 @@
 1760 Dovetailing 1
 1761 Down 1
 1762 Doyle 1
-1763 DoÒana 3
+1763 Do√±ana 3
 1764 Draco 8
 1765 Draft 1
 1766 Drafting 2
@@ -1795,8 +1795,8 @@
 1795 Dutch 30
 1796 Dutroux 2
 1797 Dynamite 1
-1798 DÌez 5
-1799 D¸hrkop 3
+1798 D√≠ez 5
+1799 D√ºhrkop 3
 1800 E 5
 1801 E.coli 1
 1802 EAGGF 5
@@ -1862,7 +1862,7 @@
 1862 Effectiveness 1
 1863 Efficiency 1
 1864 Efforts 1
-1865 Efterl¯n 2
+1865 Efterl√∏n 2
 1866 Egypt 5
 1867 Egyptian 3
 1868 Ehud 2
@@ -1940,7 +1940,7 @@
 1940 Establishing 2
 1941 Estonia 1
 1942 Estuary 7
-1943 EstÈvez 1
+1943 Est√©vez 1
 1944 Ethiopia 6
 1945 Ethnic 1
 1946 Euratom 5
@@ -2002,7 +2002,7 @@
 2002 Extradition 1
 2003 Extraordinary 1
 2004 Extremely 1
-2005 ExupÈry 1
+2005 Exup√©ry 1
 2006 Exxon 3
 2007 F 1
 2008 FBI 2
@@ -2011,7 +2011,7 @@
 2011 FIFG 1
 2012 FIPOL 3
 2013 FOOD 1
-2014 FP÷ 15
+2014 FP√ñ 15
 2015 FR 42
 2016 FRF 1
 2017 FROM 1
@@ -2050,7 +2050,7 @@
 2050 Fellow 1
 2051 Ferber 1
 2052 Fernando 6
-2053 Fern·ndez 4
+2053 Fern√°ndez 4
 2054 Ferte 1
 2055 Fertile 1
 2056 Festus 4
@@ -2144,7 +2144,7 @@
 2144 Franklin 1
 2145 Frankly 2
 2146 Franz 3
-2147 FranÁois 1
+2147 Fran√ßois 1
 2148 Frassoni 11
 2149 Fraud 3
 2150 Fred 19
@@ -2196,10 +2196,10 @@
 2196 Gallagher 6
 2197 Galleon 1
 2198 Gama 3
-2199 GarcÌa 4
+2199 Garc√≠a 4
 2200 Gargani 5
 2201 Gasping 1
-2202 GasÚliba 1
+2202 Gas√≤liba 1
 2203 Gaulle 1
 2204 Gauls 1
 2205 Gaza 8
@@ -2260,7 +2260,7 @@
 2260 Gollnisch 2
 2261 Gomes 1
 2262 Gong 1
-2263 Gonz·lez 2
+2263 Gonz√°lez 2
 2264 Good 7
 2265 Goods 2
 2266 Goodwill 1
@@ -2290,7 +2290,7 @@
 2290 Grappa 1
 2291 Gravesend 1
 2292 Gray 2
-2293 GraÁa 7
+2293 Gra√ßa 7
 2294 Great 10
 2295 Greater 2
 2296 Greece 49
@@ -2304,13 +2304,13 @@
 2304 Gringotts 4
 2305 Grinning 1
 2306 Grog 1
-2307 GrossetÍte 5
+2307 Grosset√™te 5
 2308 Group 258
 2309 Groups 4
 2310 Grozny 3
 2311 Gryffindor 1
-2312 Grˆner 2
-2313 Grˆnitz 1
+2312 Gr√∂ner 2
+2313 Gr√∂nitz 1
 2314 Guarantee 2
 2315 Guatemala 1
 2316 Guess 1
@@ -2324,11 +2324,11 @@
 2324 Gut 1
 2325 Guterres 13
 2326 Gutierres 1
-2327 GutÌerrez 2
+2327 Gut√≠errez 2
 2328 Guv 1
 2329 Gwenzi 1
-2330 G¸nter 1
-2331 G¸tesiegel 1
+2330 G√ºnter 1
+2331 G√ºtesiegel 1
 2332 H-0002/99 1
 2333 H-0006/00 1
 2334 H-0020/00 1
@@ -2399,7 +2399,7 @@
 2399 Haifa 1
 2400 Hain 1
 2401 Hainaut 1
-2402 HalÔnen 1
+2402 Hal√Ønen 1
 2403 Hamburg 2
 2404 Hamilton 1
 2405 Hang 1
@@ -2456,7 +2456,7 @@
 2456 Hermes 1
 2457 Hermione 10
 2458 Hernandez 1
-2459 Hern·ndez 1
+2459 Hern√°ndez 1
 2460 Herodian 1
 2461 Herr 4
 2462 Herritarrok 2
@@ -2522,8 +2522,8 @@
 2522 Hurricane 1
 2523 Husband 1
 2524 Hypocrisy 2
-2525 H‰kkinen 1
-2526 H‰nsch 2
+2525 H√§kkinen 1
+2526 H√§nsch 2
 2527 I 6027
 2528 I. 3
 2529 IBM 1
@@ -2689,7 +2689,7 @@
 2689 Jews 16
 2690 Jo 2
 2691 Joaquim 1
-2692 JoaquÌn 1
+2692 Joaqu√≠n 1
 2693 Job 2
 2694 John 16
 2695 Joint 42
@@ -2702,7 +2702,7 @@
 2702 Joseph 1
 2703 Jospin 2
 2704 Josse 1
-2705 JosÈ 2
+2705 Jos√© 2
 2706 Journal 2
 2707 Journalists 3
 2708 Jove 5
@@ -2718,9 +2718,9 @@
 2718 Just 29
 2719 Justice 60
 2720 Justification 1
-2721 Jˆrg 17
-2722 J¯rgensen 2
-2723 J˙car 2
+2721 J√∂rg 17
+2722 J√∏rgensen 2
+2723 J√∫car 2
 2724 KFOR 6
 2725 KLA 7
 2726 KLM 1
@@ -2763,7 +2763,7 @@
 2763 Knights 1
 2764 Knockturn 2
 2765 Know 1
-2766 Knˆrr 7
+2766 Kn√∂rr 7
 2767 Koch 16
 2768 Kofi 1
 2769 Kohl 1
@@ -2792,7 +2792,7 @@
 2792 Kyi 1
 2793 Kyoto 10
 2794 Kyrgyzstan 5
-2795 Kˆhler 1
+2795 K√∂hler 1
 2796 LAGs 3
 2797 LDCs 1
 2798 LEADER 65
@@ -2914,7 +2914,7 @@
 2914 Loi 1
 2915 Loire 4
 2916 Lomas 1
-2917 LomÈ 35
+2917 Lom√© 35
 2918 London 17
 2919 Long 1
 2920 Look 2
@@ -2946,9 +2946,9 @@
 2946 Luxembourgeois 1
 2947 Lynne 4
 2948 Lyon 1
-2949 L‰nder 2
-2950 Lˆˆw 2
-2951 L¸beck 1
+2949 L√§nder 2
+2950 L√∂√∂w 2
+2951 L√ºbeck 1
 2952 M.P. 1
 2953 MAGICAL 1
 2954 MAGPs 4
@@ -2990,7 +2990,7 @@
 2990 Major 1
 2991 Majorca 1
 2992 Malfoy 15
-2993 Malmstrˆm 3
+2993 Malmstr√∂m 3
 2994 Malone 1
 2995 Malta 46
 2996 Maltese 6
@@ -3035,8 +3035,8 @@
 3035 Martinez 3
 3036 Martini 1
 3037 Martinis 1
-3038 MartÌn 5
-3039 MarÈe 1
+3038 Mart√≠n 5
+3039 Mar√©e 1
 3040 Mason 3
 3041 Match 1
 3042 Mathies 6
@@ -3073,7 +3073,7 @@
 3073 Memoirs 1
 3074 Memorandum 2
 3075 Men 11
-3076 MenÈndez 1
+3076 Men√©ndez 1
 3077 Merely 1
 3078 Merit 1
 3079 Merseybeat 1
@@ -3206,8 +3206,8 @@
 3206 My 186
 3207 Myanmar 2
 3208 Myller 1
-3209 M·rio 1
-3210 MÈndez 1
+3209 M√°rio 1
+3210 M√©ndez 1
 3211 NASDAQ 3
 3212 NATO 79
 3213 NATURE 3
@@ -3321,7 +3321,7 @@
 3321 Numerous 3
 3322 Nuova 1
 3323 Nz 2
-3324 N˙Òez 1
+3324 N√∫√±ez 1
 3325 O 1
 3326 OAS 1
 3327 OAU 2
@@ -3410,7 +3410,7 @@
 3410 Outcome 1
 3411 Outer 2
 3412 Outside 1
-3413 OuvriËre 1
+3413 Ouvri√®re 1
 3414 Over 15
 3415 Overall 2
 3416 Overlap 1
@@ -3528,7 +3528,7 @@
 3528 Pillar 3
 3529 Pinochet 11
 3530 Pintassilgo 1
-3531 PiquÈ 1
+3531 Piqu√© 1
 3532 Pirker 1
 3533 PivotChart 4
 3534 PivotTable 47
@@ -3560,7 +3560,7 @@
 3560 Polje 1
 3561 Pollution 4
 3562 Polo 1
-3563 PomÈs 1
+3563 Pom√©s 1
 3564 Ponnambalam 1
 3565 Ponte 3
 3566 Poor 4
@@ -3645,7 +3645,7 @@
 3645 Putin 3
 3646 Putting 1
 3647 Pyrenees 1
-3648 PÈtain 1
+3648 P√©tain 1
 3649 QE2 2
 3650 Qtr3 1
 3651 Quadras 1
@@ -3656,7 +3656,7 @@
 3656 Quecedo 3
 3657 Queen 2
 3658 Queiro 1
-3659 QueirÛ 1
+3659 Queir√≥ 1
 3660 Question 72
 3661 Questions 18
 3662 Quidditch 2
@@ -3786,7 +3786,7 @@
 3786 Rhodesian 1
 3787 Rhodesians 1
 3788 Rhone 1
-3789 RhÙne 1
+3789 Rh√¥ne 1
 3790 Rican 1
 3791 Ricardo 1
 3792 Richard 1
@@ -3826,7 +3826,7 @@
 3826 Romans 2
 3827 Romany 3
 3828 Rome 14
-3829 Rom·n 2
+3829 Rom√°n 2
 3830 Ron 28
 3831 Roo 1
 3832 Roosevelt 1
@@ -3857,8 +3857,8 @@
 3857 Russian 25
 3858 Russians 3
 3859 Rwanda 1
-3860 RÈunion 2
-3861 R¸big 6
+3860 R√©union 2
+3861 R√ºbig 6
 3862 SAP 1
 3863 SAPAR 1
 3864 SAPARD 1
@@ -3876,7 +3876,7 @@
 3876 SN 1
 3877 SOLAS 1
 3878 SPA 4
-3879 SP÷ 4
+3879 SP√ñ 4
 3880 SQL 34
 3881 SS 2
 3882 STOA 1
@@ -3899,7 +3899,7 @@
 3899 San 2
 3900 Sancho 1
 3901 Sandbanks 1
-3902 SandbÊk 1
+3902 Sandb√¶k 1
 3903 Santa 1
 3904 Santer 6
 3905 Santiago 1
@@ -3932,11 +3932,11 @@
 3932 Schori 2
 3933 Schreyer 5
 3934 Schroedter 18
-3935 Schrˆder 1
+3935 Schr√∂der 1
 3936 Schulz 9
 3937 Schwaiger 1
-3938 Schˆrling 1
-3939 Sch¸ssel 7
+3938 Sch√∂rling 1
+3939 Sch√ºssel 7
 3940 Science 5
 3941 Scientific 2
 3942 Scientists 2
@@ -3974,7 +3974,7 @@
 3974 Senator 2
 3975 Sending 1
 3976 Senior 1
-3977 Sepp‰nen 1
+3977 Sepp√§nen 1
 3978 September 27
 3979 Serb 5
 3980 Serbia 36
@@ -4041,7 +4041,7 @@
 4041 Sixth 1
 4042 Sixthly 1
 4043 Sixties 2
-4044 Sjˆstedt 9
+4044 Sj√∂stedt 9
 4045 Skirts 1
 4046 Skopje 4
 4047 Slovakia 1
@@ -4205,11 +4205,11 @@
 4205 Sysmin 1
 4206 System 6
 4207 System32 1
-4208 S·nchez 3
-4209 S„o 2
-4210 SËte 1
-4211 Sˆderman 2
-4212 Sˆrensen 1
+4208 S√°nchez 3
+4209 S√£o 2
+4210 S√®te 1
+4211 S√∂derman 2
+4212 S√∂rensen 1
 4213 T. 1
 4214 TAC 6
 4215 TACIS 7
@@ -4257,7 +4257,7 @@
 4257 Territories 1
 4258 Terror 2
 4259 Terrorism 1
-4260 TerrÛn 5
+4260 Terr√≥n 5
 4261 Tesauro 1
 4262 Teutonic 1
 4263 Texas 2
@@ -4323,7 +4323,7 @@
 4323 Tom 1
 4324 Tomb 1
 4325 Tomorrow 5
-4326 TomÈ 2
+4326 Tom√© 2
 4327 Too 8
 4328 Tool 1
 4329 Tools 1
@@ -4386,7 +4386,7 @@
 4386 Twist 1
 4387 Two 21
 4388 Typically 1
-4389 T‹V 1
+4389 T√úV 1
 4390 U 7
 4391 U.S. 1
 4392 UCITS 24
@@ -4437,7 +4437,7 @@
 4437 Uniformity 1
 4438 Unilever 1
 4439 Union 1292
-4440 Union≠China 1
+4440 Union¬≠China 1
 4441 Unit 1
 4442 United 189
 4443 Unity 1
@@ -4484,7 +4484,7 @@
 4484 Vatanen 3
 4485 Vehicles 1
 4486 Velzen 2
-4487 VendÈe 6
+4487 Vend√©e 6
 4488 Venetia 4
 4489 Venezuela 2
 4490 Ventimiglia 1
@@ -4531,7 +4531,7 @@
 4531 Vote 2
 4532 Vs 1
 4533 Vulnerable 1
-4534 VÈronique 1
+4534 V√©ronique 1
 4535 W3C 1
 4536 WCT 1
 4537 WEU 5
@@ -4554,7 +4554,7 @@
 4554 Wall 1
 4555 Wallonia 1
 4556 Wallonian 1
-4557 Wallstrˆm 18
+4557 Wallstr√∂m 18
 4558 Walter 2
 4559 Wandering 1
 4560 War 13
@@ -6377,7 +6377,7 @@
 6377 by 2804
 6378 bygone 1
 6379 bygones 2
-6380 bÈbÈ 1
+6380 b√©b√© 1
 6381 c 1
 6382 c'est 1
 6383 ca 11
@@ -6420,7 +6420,7 @@
 6420 camps 4
 6421 can 1735
 6422 canals 1
-6423 canapÈs 1
+6423 canap√©s 1
 6424 cancel 3
 6425 cancelled 7
 6426 cancelling 1
@@ -7045,7 +7045,7 @@
 7045 communicating 1
 7046 communication 130
 7047 communications 13
-7048 communiquÈs 1
+7048 communiqu√©s 1
 7049 communism 1
 7050 communist 2
 7051 communitarisation 1
@@ -7770,7 +7770,7 @@
 7770 crypto 1
 7771 crystal 6
 7772 crystallise 1
-7773 crËches 1
+7773 cr√®ches 1
 7774 cubic 3
 7775 cufflinks 1
 7776 cull 1
@@ -8895,10 +8895,10 @@
 8895 dynamically 2
 8896 dynamics 1
 8897 dynamism 4
-8898 dÈcor 1
-8899 dÈfense 2
-8900 dÈj‡ 1
-8901 dÈtente 2
+8898 d√©cor 1
+8899 d√©fense 2
+8900 d√©j√† 1
+8901 d√©tente 2
 8902 e 26
 8903 e.g. 2
 8904 each 235
@@ -9052,7 +9052,7 @@
 9052 eluded 1
 9053 elusive 1
 9054 elves 1
-9055 el≠-Sheikh 1
+9055 el¬≠-Sheikh 1
 9056 email 2
 9057 emanating 2
 9058 emancipation 1
@@ -9817,7 +9817,7 @@
 9817 favourites 2
 9818 favours 6
 9819 fax 3
-9820 faÁade 1
+9820 fa√ßade 1
 9821 fear 47
 9822 feared 5
 9823 fearful 3
@@ -10486,7 +10486,7 @@
 10486 get 156
 10487 gets 8
 10488 getting 34
-10489 gew‰hrt 1
+10489 gew√§hrt 1
 10490 geyser 1
 10491 ghetto 1
 10492 ghettos 2
@@ -10697,7 +10697,7 @@
 10697 gruesome 2
 10698 gruffly 1
 10699 grunt 1
-10700 gr‚ce 1
+10700 gr√¢ce 1
 10701 guarantee 104
 10702 guaranteed 23
 10703 guaranteeing 19
@@ -13256,7 +13256,7 @@
 13256 mysterious 6
 13257 mystery 11
 13258 mythology 1
-13259 m¸ssen 3
+13259 m√ºssen 3
 13260 n 2
 13261 n't 177
 13262 nags 1
@@ -13303,7 +13303,7 @@
 13303 navy 2
 13304 nazi 1
 13305 nazism 3
-13306 naÔve 2
+13306 na√Øve 2
 13307 ne 1
 13308 near 31
 13309 nearby 5
@@ -13984,7 +13984,7 @@
 13984 parents 17
 13985 pariahs 1
 13986 parity 3
-13987 paritÈ 1
+13987 parit√© 1
 13988 park 6
 13989 parked 3
 13990 parking 2
@@ -14793,7 +14793,7 @@
 14793 proclaim 3
 14794 proclaimed 5
 14795 procurement 3
-14796 procËs 1
+14796 proc√®s 1
 14797 produce 72
 14798 produced 43
 14799 producer 6
@@ -14964,7 +14964,7 @@
 14964 prudence 5
 14965 prudent 6
 14966 pruned 2
-14967 prÈparez 1
+14967 pr√©parez 1
 14968 pseudo 3
 14969 psychological 3
 14970 psychologically 1
@@ -15028,7 +15028,7 @@
 15028 pursues 1
 15029 pursuing 11
 15030 pursuit 7
-15031 purÈe 1
+15031 pur√©e 1
 15032 push 10
 15033 pushed 9
 15034 pushers 1
@@ -15262,7 +15262,7 @@
 15262 realists 1
 15263 realities 4
 15264 reality 70
-15265 realitÈ 1
+15265 realit√© 1
 15266 realize 2
 15267 realized 6
 15268 realizing 1
@@ -16125,7 +16125,7 @@
 16125 rusting 2
 16126 rusty 3
 16127 rut 1
-16128 rÈfÈrendaire 1
+16128 r√©f√©rendaire 1
 16129 s 1463
 16130 s. 5
 16131 saber 1
@@ -18414,7 +18414,7 @@
 18414 tyrants 1
 18415 tyre 1
 18416 tyres 2
-18417 tÍte 2
+18417 t√™te 2
 18418 ugliness 1
 18419 ugly 2
 18420 ulterior 1
@@ -19193,7 +19193,7 @@
 19193 weighting 4
 19194 weights 1
 19195 weighty 1
-19196 weitergef¸hrt 1
+19196 weitergef√ºhrt 1
 19197 welcome 179
 19198 welcomed 23
 19199 welcomes 16
@@ -19496,13 +19496,13 @@
 19496 zoning 3
 19497 zootechnical 1
 19498 zu 9
-19499 £ 1
-19500 ¡lvaro 1
-19501 …milie 1
-19502 …sclope 1
-19503 ÷VP 9
-19504 ‡ 13
-19505 Èlite 1
-19506 Ítre 1
-19507 Óle 1
-19508 ñ 173
+19499 ¬£ 1
+19500 √Ålvaro 1
+19501 √âmilie 1
+19502 √âsclope 1
+19503 √ñVP 9
+19504 √† 13
+19505 √©lite 1
+19506 √™tre 1
+19507 √Æle 1
+19508 ‚Äì 173

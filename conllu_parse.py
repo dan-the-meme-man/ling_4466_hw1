@@ -10,8 +10,8 @@ def main():
     en_pos_tagged_data = parse(en_conllu)
 
     # vocab/encoding by GIZA's plain2snt.out or by my Python scripts
-    #pfx = 'giza'
-    pfx = 'me'
+    pfx = 'giza'
+    #pfx = 'me'
     
     models = (pfx + '.A1.15', pfx + '.A3.final')
     errors = dict.fromkeys(models, 0)
@@ -57,16 +57,13 @@ def main():
                 sv_pos = [''] * len(swedish)
                 
                 # can check where CoNLL-U and GIZA++ data diverge in number of tokens
-                # if i == 18:
-                #     print(f'English: {len(english)}')
-                #     print(english)
-                #     print()
-                    
-                #     print(f'Num lists: {len(num_lists)}')
-                #     print(f'English POS: {len(en_pos)}')
-                #     print(en_pos)
-                #     print()
-                #     exit()
+                if i == 18 and 'A1.15' in model:
+                    print(f'English tokens: {len(english)}')
+                    print(english)
+                    print()
+                    print(f'English POS tags: {len(en_pos)}')
+                    print(en_pos)
+                    print()
                 
                 # try to map every swedish token to an english POS tag
                 # using the mapping of english tokens to POS tags

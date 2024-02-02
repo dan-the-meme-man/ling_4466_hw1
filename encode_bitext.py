@@ -36,6 +36,8 @@ with open('bitext.encoded', 'w+') as g:
         sv_ids = [str(sv_tok_to_id[token]) for token in sv_tokens]
         
         # write ids to file
+        # if len(en_ids) == 0 or len(sv_ids) == 0:
+        #     continue
         g.write('1' + '\n')
         g.write(' '.join(en_ids) + '\n')
         g.write(' '.join(sv_ids) + '\n')
@@ -43,4 +45,4 @@ with open('bitext.encoded', 'w+') as g:
         num_lines += 1
         
         if num_lines % 100 == 0:
-            print('Processed {} lines'.format(num_lines))
+            print(f'Processed {num_lines} lines')

@@ -1,17 +1,18 @@
 from io import open
 import re
 
-from conllu import parse
+from conllu import parse, TokenList
 
 def main():
+    
     token_order_re = re.compile('\({ [0-9 ]*}\)')
 
     en_conllu = open('en_lines-ud-train.conllu', 'r', encoding='utf-8').read()
     en_pos_tagged_data = parse(en_conllu)
 
     # vocab/encoding by GIZA's plain2snt.out or by my Python scripts
-    pfx = 'giza'
-    #pfx = 'me'
+    #pfx = 'giza'
+    pfx = 'me'
     
     models = (pfx + '.A1.15', pfx + '.A3.final')
     errors = dict.fromkeys(models, 0)
@@ -57,7 +58,8 @@ def main():
                 sv_pos = [''] * len(swedish)
                 
                 # can check where CoNLL-U and GIZA++ data diverge in number of tokens
-                if i == 18 and 'A1.15' in model:
+                if i == 18:
+                    print(f'Tokenizer: {model}')
                     print(f'English tokens: {len(english)}')
                     print(english)
                     print()
@@ -83,6 +85,16 @@ def main():
                         sv_pos[j] = 'NOUN'
             
                 # TODO: write to file in CoNLL-U format
+                token_list = TokenList()
+                for j in range(len(sv_pos)):
+                    token_list.append(
+                        {
+                            'id': j+1,
+                            'form': swedish[j],
+                            'upos': sv_pos[j]
+                        }
+                    )
+                f.write(token_list.serialize())
             
     print(errors)
                   

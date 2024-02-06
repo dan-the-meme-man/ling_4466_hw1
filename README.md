@@ -78,4 +78,4 @@ As can be seen throughout the preceding sections, I ran the models not only on t
 
 ### Improvement 2
 
-I tried out Awesome Align to see if it performs better than GIZA++.
+I tried out Awesome Align to see if it performs better than GIZA++. `make_aa_input.py` puts the bitext in the correct format (`awesome_align_input.txt`).

@@ -3,3 +3,7 @@ bitext.sv
 en_lines-ud-train.conllu
 en_lines-ud-dev.conllu
 dev_pos_bitext.en
+awesome_align.egg-info/
+build/
+dist/
+awesome-align/

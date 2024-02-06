@@ -1,6 +1,8 @@
 import spacy
 from collections import OrderedDict
 
+updated = True
+
 for lang, tok_name in zip(('en', 'sv'), ('en_core_web_sm', 'sv_core_news_sm')):
     
     try:
@@ -34,9 +36,14 @@ for lang, tok_name in zip(('en', 'sv'), ('en_core_web_sm', 'sv_core_news_sm')):
             
     # sort lexicographically
     vocab = OrderedDict(sorted(vocab.items()))
-            
+    
+    if updated:
+        pfx = 'vocab_updated.'
+    else:
+        pfx = 'vocab.'
+    
     # write vocab to file
-    with open('vocab.' + lang, 'w+', encoding='utf-8') as f:
+    with open(pfx + lang, 'w+', encoding='utf-8') as f:
         i = 1
         for key in vocab:
             f.write(str(i) + ' ' + key + ' ' + str(vocab[key]) + '\n')

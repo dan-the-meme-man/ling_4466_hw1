@@ -3,16 +3,25 @@ import re
 
 from conllu import parse, TokenList
 
+updated = True
+
 def main():
     
     token_order_re = re.compile('\({ [0-9 ]*}\)')
 
-    en_conllu = open('en_lines-ud-train.conllu', 'r', encoding='utf-8').read()
+    if updated:
+        file_name = 'en_lines-ud-dev.conllu'
+    else:
+        file_name = 'en_lines-ud-train.conllu'
+
+    en_conllu = open(file_name, 'r', encoding='utf-8').read()
     en_pos_tagged_data = parse(en_conllu)
 
     # vocab/encoding by GIZA's plain2snt.out or by my Python scripts
-    #pfx = 'giza'
-    pfx = 'me'
+    pfx = 'giza'
+    #pfx = 'me'
+    if updated:
+        pfx += '_updated'
     
     models = (pfx + '.A1.15', pfx + '.A3.final')
     errors = dict.fromkeys(models, 0)
@@ -28,13 +37,13 @@ def main():
             for i in range(len(en_pos_tagged_data)):
                 
                 # from CoNLL-U tagged data
-                example = en_pos_tagged_data[i]
+                example = en_pos_tagged_data[-i-1]
                 
                 # from GIZA++ output
-                swedish = model_lines[3*i + 1].strip().split()
+                swedish = model_lines[len(model_lines)-3*i-2].strip().split()
                 
                 # from GIZA++ output
-                english = model_lines[3*i + 2].strip()
+                english = model_lines[len(model_lines)-3*i-1].strip()
                 
                 # get the indices where tokens should be mapped
                 num_lists = re.findall(token_order_re, english)
@@ -58,14 +67,14 @@ def main():
                 sv_pos = [''] * len(swedish)
                 
                 # can check where CoNLL-U and GIZA++ data diverge in number of tokens
-                if i == 18:
-                    print(f'Tokenizer: {model}')
-                    print(f'English tokens: {len(english)}')
-                    print(english)
-                    print()
-                    print(f'English POS tags: {len(en_pos)}')
-                    print(en_pos)
-                    print()
+                # if i == 18:
+                #     print(f'Tokenizer: {model}')
+                #     print(f'English tokens: {len(english)}')
+                #     print(english)
+                #     print()
+                #     print(f'English POS tags: {len(en_pos)}')
+                #     print(en_pos)
+                #     print()
                 
                 # try to map every swedish token to an english POS tag
                 # using the mapping of english tokens to POS tags
@@ -94,6 +103,7 @@ def main():
                             'upos': sv_pos[j]
                         }
                     )
+                    
                 f.write(token_list.serialize())
             
     print(errors)

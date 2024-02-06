@@ -7,13 +7,24 @@ sv_tok = spacy.load('sv_core_news_sm')
 en_tok_to_id = {}
 sv_tok_to_id = {}
 
+updated = True
+
+if updated:
+    en_vocab = 'vocab_updated.en'
+    sv_vocab = 'vocab_updated.sv'
+    bitext = 'bitext_updated.encoded'
+else:
+    en_vocab = 'vocab.en'
+    sv_vocab = 'vocab.sv'
+    bitext = 'bitext.encoded'
+
 # read vocab file
-with open('vocab.en', 'r', encoding='utf-8') as f:
+with open(en_vocab, 'r', encoding='utf-8') as f:
     for line in f:
         line = line.strip().split()
         en_tok_to_id[line[1]] = int(line[0])
         
-with open('vocab.sv', 'r', encoding='utf-8') as f:
+with open(sv_vocab, 'r', encoding='utf-8') as f:
     for line in f:
         line = line.strip().split()
         sv_tok_to_id[line[1]] = int(line[0])
@@ -24,7 +35,7 @@ sv_lines = open('bitext.sv', 'r', encoding='utf-8').readlines()
 
 num_lines = 0
 
-with open('bitext.encoded', 'w+', encoding='utf-8') as g:
+with open(bitext, 'w+', encoding='utf-8') as g:
     for i in range(len(en_lines)):
         
         # split lines into tokens

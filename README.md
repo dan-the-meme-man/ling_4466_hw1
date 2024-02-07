@@ -84,7 +84,7 @@ I tried out Awesome Align to see if it performs better than GIZA++. `make_aa_inp
 
 It is hard to evaluate the performance of the different tools, but given my very cursory knowledge of Swedish, and glancing at the CoNLL-U files from both GIZA++ and Awesome Align, it seems that Awesome Align is much better. This makes a lot of sense, as GIZA++ is quite old and Awesome Align is a more modern tool, which appears to rely on neural methods.
 
-## Write-up
+## Write-up (DELIVERABLE)
 
 ### Failures of statistical word aligners
 

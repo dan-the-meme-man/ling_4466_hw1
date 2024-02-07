@@ -1,0 +1,30 @@
+# Sentence pair (1) source length 2 target length 2 alignment score : 0.244811
+Visa alla 
+NULL ({ }) Show ({ 1 2 }) All ({ }) 
+# Sentence pair (2) source length 5 target length 3 alignment score : 0.397769
+Om ANSI SQL-frågeläge 
+NULL ({ }) About ({ 1 }) ANSI ({ 2 }) SQL ({ }) query ({ }) mode ({ 3 }) 
+# Sentence pair (3) source length 14 target length 14 alignment score : 4.50318e-09
+En del av innehållet i det här avsnittet kanske inte gäller för vissa språk. 
+NULL ({ 6 }) Some ({ 1 2 }) of ({ 3 }) the ({ }) content ({ 4 }) in ({ 5 }) this ({ }) topic ({ 7 }) may ({ 9 }) not ({ 10 }) be ({ }) applicable ({ 11 }) to ({ 12 }) some ({ 13 }) languages. ({ 8 14 }) 
+# Sentence pair (4) source length 13 target length 9 alignment score : 0.000143611
+Du skapar SQL-frågor i något av två ANSI SQL-frågelägen: 
+NULL ({ }) You ({ 1 }) can ({ }) create ({ 2 }) SQL ({ }) queries ({ }) in ({ 4 }) one ({ }) of ({ 6 }) two ({ 7 }) ANSI ({ 8 }) SQL ({ }) query ({ }) modes: ({ 3 5 9 }) 
+# Sentence pair (5) source length 7 target length 6 alignment score : 0.00235683
+ANSI-89 ger den traditionella Jet SQL-syntaxen. 
+NULL ({ }) ANSI-89 ({ 1 }) describes ({ }) the ({ }) traditional ({ 4 }) Jet ({ 2 3 5 6 }) SQL ({ }) syntax. ({ }) 
+# Sentence pair (6) source length 17 target length 18 alignment score : 8.06982e-10
+Detta läge ligger nära specifikationen för ANSI-89 nivå 1, men det är inte kompatibelt med ANSI-89 nivå 1. 
+NULL ({ 11 }) This ({ 1 }) mode ({ }) conforms ({ 6 }) closely ({ 4 }) to ({ }) the ({ }) ANSI-89 ({ 7 16 }) Level ({ 15 }) 1 ({ }) specification, ({ 5 }) but ({ 10 }) is ({ 12 }) not ({ 13 }) ANSI-89 ({ }) Level ({ }) 1 ({ }) compliant. ({ 2 3 8 9 14 17 18 }) 
+# Sentence pair (7) source length 22 target length 22 alignment score : 1.49735e-11
+Vissa funktioner i ANSI-89 SQL är inte implementerade och jokertecknen är anpassade till specifikationen för Visual Basic for Applications (VBA), inte SQL. 
+NULL ({ }) Certain ({ 1 }) ANSI-89 ({ 4 }) SQL ({ 3 5 }) features ({ }) are ({ 6 11 }) not ({ 7 21 }) implemented ({ }) and ({ 9 }) the ({ }) wildcard ({ }) characters ({ }) conform ({ }) to ({ 13 }) the ({ }) Visual ({ 16 17 }) Basic ({ }) for ({ 15 }) Applications ({ 2 8 10 12 18 19 20 }) (VBA) ({ }) specification, ({ 14 }) not ({ }) SQL. ({ 22 }) 
+# Sentence pair (8) source length 21 target length 17 alignment score : 1.02923e-08
+ANSI-92 ger nya reserverade ord, syntax-regler och jokertecken som förbättrar möjligheterna att skapa frågor, filter och SQL-uttryck. 
+NULL ({ 9 }) ANSI-92 ({ 1 }) provides ({ 2 }) new ({ 3 }) reserved ({ 4 }) words, ({ }) syntax ({ }) rules, ({ }) and ({ 7 16 }) wildcard ({ 8 }) characters ({ }) that ({ 12 }) enhance ({ }) your ({ }) ability ({ }) to ({ }) create ({ 13 }) queries, ({ 14 }) filters, ({ 5 6 10 11 15 17 }) and ({ }) SQL ({ }) statements. ({ }) 
+# Sentence pair (9) source length 17 target length 18 alignment score : 8.58719e-10
+Detta läge ligger nära specifikationen för ANSI-92 nivå 1, men det är inte kompatibelt med ANSI-92 nivå 1. 
+NULL ({ 11 }) This ({ 1 }) mode ({ }) conforms ({ 6 }) closely ({ 4 }) to ({ }) the ({ }) ANSI-92 ({ 7 16 }) Level ({ 15 }) 1 ({ }) specification, ({ 5 }) but ({ 10 }) is ({ 12 }) not ({ 13 }) ANSI-92 ({ }) Level ({ }) 1 ({ }) compliant. ({ 2 3 8 9 14 17 18 }) 
+# Sentence pair (10) source length 18 target length 11 alignment score : 1.01487e-07
+Detta frågeläge innehåller mer ANSI-syntax och jokertecknen är anpassade till SQL-specifikationen. 
+NULL ({ }) This ({ 1 8 }) query ({ }) mode ({ }) has ({ }) more ({ 4 }) of ({ }) the ({ }) ANSI ({ }) syntax, ({ 2 3 5 7 9 11 }) and ({ 6 }) the ({ }) wildcard ({ }) characters ({ }) conform ({ }) to ({ 10 }) the ({ }) SQL ({ }) specification. ({ }) 

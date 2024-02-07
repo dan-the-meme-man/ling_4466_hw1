@@ -1,5 +1,7 @@
 # HW 1 - LING 4466
 
+Note: Feel free to use any file prefixed with `first_10` to see just the first ten sentence alignments for any given GIZA++ alignment output.
+
 ## Train GIZA++
 
 ### Training data GIZA++ made using `plain2snt.out`
